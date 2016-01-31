@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/jQuery.js"></script>
+    <script src="js/shap.js"></script>
+    <script src="js/index.js"></script>
+
+</head>
+<body>
+    <div class="panel">
+        <ul class="nav">
+            <li class="parent file">文件
+                <ul class="son">
+                    <li>新建</li>
+                    <li>保存</li>
+                    <li>后退</li>
+                </ul>
+            </li>
+
+            <li class="parent">形状
+                <ul class="son">
+                    <li attr = "line">线</li>
+                    <li attr = "rect">矩形</li>
+                    <li attr = "pen">笔</li>
+                    <li attr = "circle">圆</li>
+                    <li attr = "five">五角星</li>
+                </ul>
+            </li>
+
+            <li class="parent filltype">填充类型
+                <ul class="son">
+                    <li attr="stroke">边框</li>
+                    <li attr="fill">填充</li>
+                </ul>
+            </li>
+
+            <li class="parent bgcolor">背景颜色
+                <ul class="son">
+                    <input type="color">
+                </ul>
+            </li>
+
+            <li class="parent linecolor">边框颜色
+                <ul class="son">
+                    <input type="color">
+                </ul>
+            </li>
+
+            <li class="parent linecx">线条粗细
+                <ul class="son">
+                    <li attr="8">大</li>
+                    <li attr="4">中</li>
+                    <li attr="1">小</li>
+                </ul>
+            </li>
+
+            <li class="parent xpc">橡皮擦
+                <ul class="son">
+                    <li attr = "30">大</li>
+                    <li attr = "20">中</li>
+                    <li attr = "8">小</li>
+                </ul>
+            </li>
+
+            <li class="parent select">选择
+               <!-- <ul class="son">
+                    <li ></li>
+                    <li></li>
+                    <li></li>
+                </ul>-->
+            </li>
+        </ul>
+
+
+        <div class="container">
+            <div class="copy"></div>
+            <canvas></canvas>
+            <div class="clear"></div>
+            <div class="selectArea"></div>
+        </div>
+
+    </div>
+</body>
+</html>
